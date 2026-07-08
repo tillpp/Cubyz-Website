@@ -2,9 +2,10 @@
 import { computed, ref } from 'vue';
 
     var images = [
-        "assets/images/screenshots/colorful_crystals.png",
+        "assets/images/screenshots/shader_blueflowers.png",
+        "assets/images/screenshots/water_cave.png",
+        "assets/images/screenshots/shaded_bench.png",
         "assets/images/screenshots/icymountain.png",
-        "assets/images/screenshots/green_crystals.png",
         "assets/images/screenshots/rainbow-trees.png"
     ];
     const position = ref([0, 1, 2]);
