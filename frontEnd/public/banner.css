@@ -1,5 +1,5 @@
 nav {
-    background-image: url(assets/images/releases/cubyz.0.2.0.png);
+    background-image: url(assets/images/banner.png);
     background-position: center, center;
     background-size: cover;
     image-rendering: pixelated;
@@ -43,9 +43,14 @@ nav {
 }
 
 .banner .button {
-    display: inline;
+    background-image: linear-gradient(rgba(64, 64, 64, 0.7), rgba(0, 0, 0, 0.7)), url(assets/textures/button.png);
+    background-color: #000000ff;
+    opacity: 0.8; 
+    border-radius: 4px;
+    
+    
+    display: inline-block;
     color: #ffffff;
-    background-color: #000000aa;
     padding: 10px;
     margin: 1px;
 }

@@ -1,7 +1,7 @@
 * {
     color-scheme: dark;
     font-family: font;
-    font-size: 18px;
+    font-size: 1em;
     text-shadow: 2px 2px 0px #000000;
 }
 
@@ -45,7 +45,8 @@
 }
 
 body {
-    background-image: url(assets/textures/slate.png);
+    background-image: linear-gradient(rgba(64, 64, 64, 0.5), rgba(0, 0, 0, 1)), url(assets/textures/slate.png);
+    background-color: #000000;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
@@ -54,7 +55,10 @@ body {
 }
 
 button {
-    background-image: url(assets/textures/button.png);
+    background-image: linear-gradient(rgba(64, 64, 64, 0.3), rgba(0, 0, 0, 0.7)), url(assets/textures/button.png);
+    background-color: #000000ff;
+    border-radius: 4px;
+    
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
