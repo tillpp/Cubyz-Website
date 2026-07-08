@@ -135,10 +135,6 @@ main {
     padding: 20px;
 }
 
-.images {
-    overflow-x: scroll;
-}
-
 .flexbox {
     display: flex;
     flex: 2;

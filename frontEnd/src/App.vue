@@ -10,6 +10,7 @@
           <router-link to="."><div class="button">Features (no page)</div></router-link> 
           <router-link to="information"><div class="button">Information</div></router-link> 
           <router-link to="addon"><div class="button">Addon</div></router-link> 
+          <router-link to="servers"><div class="button">Servers</div></router-link> 
         </div>
       </div>
   </nav>

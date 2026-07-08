@@ -9,6 +9,7 @@ import { createMemoryHistory, createRouter, createWebHashHistory, createWebHisto
 import siteIndex from "./pages/Index.vue"
 import siteInformation from "./pages/information.vue"
 import siteAddon from "./pages/addon.vue"
+import siteServers from "./pages/servers.vue"
 import siteAddonNew from "./pages/addonNew.vue"
 
 const routes = [
@@ -16,6 +17,7 @@ const routes = [
   { path: '/information', component: siteInformation },
   { path: '/addon', component: siteAddon },
   { path: '/addonNew', component: siteAddonNew },
+  { path: '/servers', component: siteServers },
 ]
 
 export const router = createRouter({

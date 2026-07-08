@@ -1,8 +1,27 @@
 <script setup lang="ts">
+import { computed, ref } from 'vue';
+
+    var images = [
+        "/assets/images/screenshots/colorful_crystals.png",
+        "/assets/images/screenshots/icymountain.png",
+        "/assets/images/screenshots/green_crystals.png",
+        "/assets/images/screenshots/rainbow-trees.png"
+    ];
+    const position = ref([0, 1, 2]);
+
+    const handleAnimationLoop = (trackIndex:number) => {
+        position.value[trackIndex] = ((position.value[trackIndex] ?? 0) + 3)%images.length;
+        console.log(position.value[trackIndex]);
+    };
 </script>
 
 <template>
-  <p style="text-align: center;"> <!--Change the "text-align: center" to "display none" if you want it gone.-->
+     <div class="slideshow-container">
+        <img class="slide" :src="images[position[0]??0]"  :style="{ animationDelay: '0s' }"  @animationiteration="handleAnimationLoop(0)" alt="">
+        <img class="slide" :src="images[position[1]??0]"  :style="{ animationDelay: '4s' }"  @animationiteration="handleAnimationLoop(1)" alt="">
+        <img class="slide" :src="images[position[2]??0]"  :style="{ animationDelay: '8s' }"  @animationiteration="handleAnimationLoop(2)" alt="">
+    </div>
+         <p style="text-align: center;"> <!--Change the "text-align: center" to "display none" if you want it gone.-->
             Embark on an thrilling journey across vast landscapes, <br>exploring the deepest of caves <br>unseen by
             daylight.
             Discover ancient minerals, untouched by time, <br>as you discover more in this forgotten
@@ -51,11 +70,53 @@
             <p class="title">
                 Some screenshots
             </p>
-            <div class="images">
-                <img style="width: 100%" src="/assets/images/screenshots/colorful_crystals.png" alt="">
-                <img style="width: 100%" src="/assets/images/screenshots/icymountain.png" alt="">
-                <img style="width: 100%" src="/assets/images/screenshots/green_crystals.png" alt="">
-                <img style="width: 100%" src="/assets/images/screenshots/rainbow-trees.png" alt="">
-            </div>
+           
         </div>
 </template>
+
+<style scoped>
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideAnimation 12s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+    border-radius: 10px;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  11% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  33% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  46% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+</style>
