@@ -26,7 +26,7 @@
 
 <style scoped>
 nav {
-    background-image: url(assets/images/banner_compressed.png);
+    background-image: url(/assets/images/banner_compressed.png);
     background-position: center, center;
     background-size: cover;
     image-rendering: pixelated;
@@ -67,7 +67,7 @@ nav {
     text-decoration: none;
 }
 .button {
-    background-image: linear-gradient(rgba(64, 64, 64, 0.7), rgba(0, 0, 0, 0.7)), url(assets/textures/button.png);
+    background-image: linear-gradient(rgba(64, 64, 64, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/textures/button.png);
     background-color: #000000ff;
     opacity: 0.8; 
     border-radius: 4px;
