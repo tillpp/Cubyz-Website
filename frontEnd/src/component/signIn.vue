@@ -5,16 +5,29 @@ const isOpen = defineModel('isOpen')
 
 </script>
 <template>
+            <!-- <button  style="display: inline-block;float:right">X</button> -->
+
     <div v-if="isOpen" class="popup">
+        <div @click="isOpen = false" class="close"></div>
         <div class="content">
-            <h3>SignIn</h3>
-            Page under construction <br>
-            <button @click="isOpen = false">Close</button>
+            <h3 style="display: inline-block;font-size: 2em;">SignIn</h3>
+            <form action="" method="post">
+                <input type="text"  name="name"        id="name"     placeholder="Username" required autocomplete="username" /> <br>
+                <input type="password" name="password" id="password" placeholder="Password" required autocomplete="current-password"/><br>
+                <input type="submit" value="Sign in!" />
+            </form>
+            <button style="">New? Sign up!</button><br>
+
         </div>
     </div>
 </template>
 
 <style scoped>
+.close {
+    position: fixed;
+    inset: 0;
+    display: flex;
+}
 .popup {
     position: fixed;
     inset: 0;
@@ -37,5 +50,9 @@ const isOpen = defineModel('isOpen')
     text-align: center;
     max-width: 600px;
 }
-
+input{
+    padding: 0.5em;
+    margin: 0.8em;
+    min-width: 200px;
+}
 </style>

@@ -17,6 +17,7 @@ import { computed, ref } from 'vue';
 </script>
 
 <template>
+    <link v-for="image in images"  :key="image" rel="stylesheet" :href="image">
      <div class="slideshow-container">
         <img class="slide" :src="images[position[0]??0]"  :style="{ animationDelay: '0s' }"  @animationiteration="handleAnimationLoop(0)" alt="">
         <img class="slide" :src="images[position[1]??0]"  :style="{ animationDelay: '4s' }"  @animationiteration="handleAnimationLoop(1)" alt="">
