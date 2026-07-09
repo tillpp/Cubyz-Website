@@ -1,5 +1,7 @@
 import express from 'express'
+import path from 'path'
 import cors from 'cors'
+import { fileURLToPath } from 'url'
 
 const port = 3000
 const app = express()
@@ -29,13 +31,23 @@ const corsOptions = {
     credentials: true,
 }
 
-app.use(cors(corsOptions))
+app.use(cors(corsOptions));
 
-
-app.get("/test/1",(req,res)=>{
+// API
+app.get("/api/users/new",(req,res)=>{
     res.json({message:"yo yo yo!"});
 })
+
+// assets
+app.use(express.static(path.join('..','frontEnd', 'dist')));
+// SPA
+app.get('/{*splat}', (req, res) => {
+  res.sendFile(path.resolve('..','frontEnd', 'dist', 'index.html'))
+});
+
 
 app.listen(port,()=>{
     console.log(`Backend running on ${port}`);
 })
+
+
