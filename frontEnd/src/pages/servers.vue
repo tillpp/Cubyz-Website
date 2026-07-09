@@ -1,5 +1,5 @@
 <script setup lang="ts">
 </script>
 <template>
-    <button></button>
+    This Page is under construction, checkout <a href="https://servers.ashframe.net/">ashframe's server page</a> instead
 </template>

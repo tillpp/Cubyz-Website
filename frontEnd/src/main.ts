@@ -8,16 +8,22 @@ import { createMemoryHistory, createRouter, createWebHashHistory, createWebHisto
 
 import siteIndex from "./pages/Index.vue"
 import siteInformation from "./pages/information.vue"
-import siteAddon from "./pages/addon.vue"
+import siteAddons from "./pages/addons.vue"
 import siteServers from "./pages/servers.vue"
 import siteAddonNew from "./pages/addonNew.vue"
+import siteBlog from "./pages/blog.vue"
+import siteWiki from "./pages/wiki.vue"
+import siteForum from "./pages/forum.vue"
 
 const routes = [
   { path: '/', component: siteIndex },
   { path: '/information', component: siteInformation },
-  { path: '/addon', component: siteAddon },
+  { path: '/addons', component: siteAddons },
   { path: '/addonNew', component: siteAddonNew },
   { path: '/servers', component: siteServers },
+  { path: '/blog', component: siteBlog },
+  { path: '/wiki', component: siteWiki },
+  { path: '/forum', component: siteForum },
 ]
 
 export const router = createRouter({

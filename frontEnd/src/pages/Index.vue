@@ -69,8 +69,9 @@ import { computed, ref } from 'vue';
         </div>
         <div class="container">
             <p class="title">
-                Some screenshots
+                Features:
             </p>
+            TODO
            
         </div>
 </template>
