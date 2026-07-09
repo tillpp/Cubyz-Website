@@ -10,9 +10,17 @@ import { computed, ref } from 'vue';
     ];
     const position = ref([0, 1, 2]);
 
+    for (let trackIndex = 0; trackIndex < 3; trackIndex++) {   
+        setTimeout(()=>{
+            position.value[trackIndex] = ((position.value[trackIndex] ?? 0) + 3)%images.length;
+            console.log(position.value[trackIndex]);
+        },6000+4000*trackIndex);
+    }
     const handleAnimationLoop = (trackIndex:number) => {
-        position.value[trackIndex] = ((position.value[trackIndex] ?? 0) + 3)%images.length;
-        console.log(position.value[trackIndex]);
+        setTimeout(()=>{
+            position.value[trackIndex] = ((position.value[trackIndex] ?? 0) + 3)%images.length;
+            console.log(position.value[trackIndex]);
+        },6000);
     };
 </script>
 
