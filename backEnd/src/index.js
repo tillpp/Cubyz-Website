@@ -1,9 +1,11 @@
 import express from 'express'
 import path from 'path'
+import https from 'https'
+import fs from 'fs'
 import cors from 'cors'
 import { fileURLToPath } from 'url'
 
-const port = 3000
+const port = 443
 const app = express()
 
 const corsOptions = {
@@ -45,8 +47,13 @@ app.get('/{*splat}', (req, res) => {
   res.sendFile(path.resolve('..','frontEnd', 'dist', 'index.html'))
 });
 
+const options = {
+    key: fs.readFileSync('cert/private.key'),
+    cert: fs.readFileSync('cert/certificate.crt'),
+};
+const server = https.createServer(options, app);
 
-app.listen(port,()=>{
+server.listen(port,()=>{
     console.log(`Backend running on ${port}`);
 })
 
