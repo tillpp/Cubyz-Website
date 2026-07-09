@@ -32,7 +32,6 @@ const routes = [
       }
     ]
   }
-
 ]
 
 export const router = createRouter({
@@ -40,5 +39,17 @@ export const router = createRouter({
   routes,
 })
 
+const headNavigationPages = [
+  {path:".",          name:"Home"},
+  {path:"forum",      name:"Forum"},
+  {path:"information",name:"Information"},
+  {path:"addons",     name:"Addons"},
+  {path:"servers",    name:"Servers"},
+  {path:"blog",       name:"Blog"},
+  {path:"wiki",       name:"Wiki"},
+]
 
-createApp(App).use(router).mount('#app')
+createApp(App)
+  .use(router)
+  .provide("headNavigationPages",headNavigationPages)
+  .mount('#app')

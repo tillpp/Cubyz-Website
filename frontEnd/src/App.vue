@@ -11,11 +11,11 @@
 
 @font-face {
     font-family: font;
-    src: url(assets/fonts/unscii-16-full.ttf);
+    src: url(/assets/fonts/unscii-16-full.ttf);
 }
 
 @font-face {
     font-family: small;
-    src: url(assets/fonts/slkscr.ttf);
+    src: url(/assets/fonts/slkscr.ttf);
 }
 </style>

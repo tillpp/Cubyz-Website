@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { inject, ref } from 'vue';
 import SignIn from '../component/signIn.vue';
 const showSignIn = ref(false);
-
+const headNavigationPages = inject<{path:string,name:string}[]>('headNavigationPages',[]);
 </script>
 
 <template>
@@ -13,13 +13,13 @@ const showSignIn = ref(false);
     <div class="banner">
       <img class="logo" src="/assets/images/CubyzLogo.png" alt="">
       <div>
-        <router-link to="."><div class="button">Home</div></router-link> 
-        <router-link to="forum"><div class="button">Forum</div></router-link> 
-        <router-link to="information"><div class="button">Information</div></router-link> 
-        <router-link to="addons"><div class="button">Addons</div></router-link> 
-        <router-link to="servers"><div class="button">Servers</div></router-link> 
-        <router-link to="blog"><div class="button">Blog</div></router-link> 
-        <router-link to="wiki"><div class="button">Wiki</div></router-link> 
+        <router-link
+            v-for="page in headNavigationPages" 
+            :key="page.path" 
+            :to="page.path"
+        >
+            <div class="button">{{page.name}}</div>
+        </router-link>
       </div>
     </div>
     
