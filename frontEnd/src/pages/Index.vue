@@ -10,26 +10,18 @@ import { computed, ref } from 'vue';
     ];
     const position = ref([0, 1, 2]);
 
-    for (let trackIndex = 0; trackIndex < 3; trackIndex++) {   
-        setTimeout(()=>{
-            position.value[trackIndex] = ((position.value[trackIndex] ?? 0) + 3)%images.length;
-            console.log(position.value[trackIndex]);
-        },6000+4000*trackIndex);
-    }
     const handleAnimationLoop = (trackIndex:number) => {
-        setTimeout(()=>{
-            position.value[trackIndex] = ((position.value[trackIndex] ?? 0) + 3)%images.length;
-            console.log(position.value[trackIndex]);
-        },6000);
+        position.value[trackIndex] = ((position.value[trackIndex] ?? 0) + 3)%images.length;
+        console.log(position.value[trackIndex]);
     };
 </script>
 
 <template>
     <link v-for="image in images"  :key="image" rel="stylesheet" :href="image">
      <div class="slideshow-container">
-        <img class="slide" :src="images[position[0]??0]"  :style="{ animationDelay: '0s' }"  @animationiteration="handleAnimationLoop(0)" alt="">
-        <img class="slide" :src="images[position[1]??0]"  :style="{ animationDelay: '4s' }"  @animationiteration="handleAnimationLoop(1)" alt="">
-        <img class="slide" :src="images[position[2]??0]"  :style="{ animationDelay: '8s' }"  @animationiteration="handleAnimationLoop(2)" alt="">
+        <img class="slide" :src="images[position[0]??0]"  :style="{ animationDelay: '-4s' }"  @animationiteration="handleAnimationLoop(0)" alt="">
+        <img class="slide" :src="images[position[1]??0]"  :style="{ animationDelay: '0s' }"  @animationiteration="handleAnimationLoop(1)" alt="">
+        <img class="slide" :src="images[position[2]??0]"  :style="{ animationDelay: '4s' }"  @animationiteration="handleAnimationLoop(2)" alt="">
     </div>
          <p style="text-align: center;"> <!--Change the "text-align: center" to "display none" if you want it gone.-->
             Embark on an thrilling journey across vast landscapes, <br>exploring the deepest of caves <br>unseen by
@@ -108,19 +100,19 @@ import { computed, ref } from 'vue';
 }
 
 @keyframes slideAnimation {
-  0% {
+  33% {
     transform: translateX(-100%);
     opacity: 0;
   }
-  11% {
+  44% {
     transform: translateX(0);
     opacity: 1;
   }
-  33% {
+  66% {
     transform: translateX(0);
     opacity: 1;
   }
-  46% {
+  79% {
     transform: translateX(100%);
     opacity: 0;
   }
