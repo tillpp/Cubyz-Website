@@ -15,20 +15,23 @@ const routes = [
     component: DefaultLayout,
     children: [
       { path: '', component:            () => import("./pages/Index.vue") },
-      { path: '/information', component: () => import("./pages/information.vue") },
-      { path: '/addons', component:      () => import("./pages/addons.vue") },
-      { path: '/addonNew', component:    () => import("./pages/addonNew.vue") },
-      { path: '/servers', component:     () => import("./pages/servers.vue") },
-      { path: '/blog', component:        () => import("./pages/blog.vue") },
-      { path: '/forum', component:       () => import("./pages/forum.vue") },
+      { path: 'information', component: () => import("./pages/information.vue") },
+      { path: 'addons', component:      () => import("./pages/addons.vue") },
+      { path: 'addonNew', component:    () => import("./pages/addonNew.vue") },
+      { path: 'servers', component:     () => import("./pages/servers.vue") },
+      { path: 'blog', component:        () => import("./pages/blog.vue") },
+      { path: 'forum', component:       () => import("./pages/forum.vue") },
     ]
   },
   {
     path: '/wiki',
     component: WikiLayout,
     children: [
+      {
+        path: 'block/:pathMatch(.*)*', component: () => import('./wikiPages/block.vue')
+      },
       { 
-        path: '', component: () => import("./pages/wiki.vue")  
+        path: '', component: () => import("./wikiPages/wiki.vue"),
       }
     ]
   },
@@ -48,13 +51,13 @@ export const router = createRouter({
 })
 
 const headNavigationPages = [
-  {path:".",          name:"Home"},
-  {path:"forum",      name:"Forum"},
-  {path:"information",name:"Information"},
-  {path:"addons",     name:"Addons"},
-  {path:"servers",    name:"Servers"},
-  {path:"blog",       name:"Blog"},
-  {path:"wiki",       name:"Wiki"},
+  {path:"/",          name:"Home"},
+  {path:"/forum",      name:"Forum"},
+  {path:"/information",name:"Information"},
+  {path:"/addons",     name:"Addons"},
+  {path:"/servers",    name:"Servers"},
+  {path:"/blog",       name:"Blog"},
+  {path:"/wiki",       name:"Wiki"},
 ]
 
 createApp(App)

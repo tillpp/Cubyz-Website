@@ -47,7 +47,7 @@ nav {
 .banner {
     position: relative;
     image-rendering: pixelated;
-    max-width: 1200px;
+    max-width: 800px;
     height: 100px;
     object-fit: cover;
     display: block;
