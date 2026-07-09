@@ -1,89 +1,21 @@
-<script setup lang="ts">
-</script>
-
 <template>
-  <nav>
-    <router-link to="information"><div class="button button2" style="float:right;z-index: 1000;">Sign in</div></router-link>
-    <div class="banner">
-      <img class="logo" src="/assets/images/CubyzLogo.png" alt="">
-      <div>
-        <router-link to="."><div class="button">Home</div></router-link> 
-        <router-link to="forum"><div class="button">Forum</div></router-link> 
-        <router-link to="information"><div class="button">Information</div></router-link> 
-        <router-link to="addons"><div class="button">Addons</div></router-link> 
-        <router-link to="servers"><div class="button">Servers</div></router-link> 
-        <router-link to="blog"><div class="button">Blog</div></router-link> 
-        <router-link to="wiki"><div class="button">Wiki</div></router-link> 
-      </div>
-    </div>
-
-  </nav>
-  <main>
-        <RouterView></RouterView>
-  </main>
-     
+  <RouterView />
 </template>
-
-<style scoped>
-nav {
-    background-image: url(/assets/images/banner_compressed.png);
-    background-position: center, center;
-    background-size: cover;
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
+<style>
+* {
+    color-scheme: dark;
+    font-family: font;
+    font-size: 1em;
+    text-shadow: 2px 2px 0px #000000;
 }
 
-
-.banner {
-    position: relative;
-    text-align: center;
-    image-rendering: pixelated;
-    max-width: 1200px;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-    margin: auto;
+@font-face {
+    font-family: font;
+    src: url(assets/fonts/unscii-16-full.ttf);
 }
 
-.banner .logo {
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
-    align-self: center;
-    height: 50%;
-    width: auto;
-
-
-    object-fit: cover;
-    display: block;
-    margin: auto;
-}
-.banner a{
-    text-decoration: none;
-}
-.button {
-    background-image: linear-gradient(rgba(64, 64, 64, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/textures/button.png);
-    background-color: #000000ff;
-    opacity: 0.8; 
-    border-radius: 4px;
-    
-    
-    display: inline-block;
-    color: #ffffff;
-    padding: 10px;
-    margin: 1px;
-}
-.button2 {
-  
-    padding: 5px;
-    font-size: 0.5rem;
-    
-}
-@media (min-width: 1024px) {
+@font-face {
+    font-family: small;
+    src: url(assets/fonts/slkscr.ttf);
 }
 </style>
