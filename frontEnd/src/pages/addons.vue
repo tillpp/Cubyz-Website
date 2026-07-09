@@ -5,7 +5,9 @@
     <div class="warning">
         <!-- <div class="warningHead">! Warning</div> -->
         <div class="warningContent">
-            Addons are created by the community, but are not necessary developed, reviewed, endorsed, or supported by the cubyz devs.   
+            Addons are created and submitted by the community, but are not necessary developed, reviewed, endorsed, or supported by the Cubyz developers.
+            Download links point to third-party Websites, and the Cubyz website does not host the addon files. 
+            If you believe an addon infringes your rights or contains malicious content, please report them.
         </div>
     </div>
     <div class="content">
