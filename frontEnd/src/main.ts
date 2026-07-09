@@ -6,24 +6,16 @@ import App from './App.vue'
 
 import { createMemoryHistory, createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 
-import siteIndex from "./pages/Index.vue"
-import siteInformation from "./pages/information.vue"
-import siteAddons from "./pages/addons.vue"
-import siteServers from "./pages/servers.vue"
-import siteAddonNew from "./pages/addonNew.vue"
-import siteBlog from "./pages/blog.vue"
-import siteWiki from "./pages/wiki.vue"
-import siteForum from "./pages/forum.vue"
 
 const routes = [
-  { path: '/', component: siteIndex },
-  { path: '/information', component: siteInformation },
-  { path: '/addons', component: siteAddons },
-  { path: '/addonNew', component: siteAddonNew },
-  { path: '/servers', component: siteServers },
-  { path: '/blog', component: siteBlog },
-  { path: '/wiki', component: siteWiki },
-  { path: '/forum', component: siteForum },
+  { path: '/', component:            () => import("./pages/Index.vue") },
+  { path: '/information', component: () => import("./pages/information.vue") },
+  { path: '/addons', component:      () => import("./pages/addons.vue") },
+  { path: '/addonNew', component:    () => import("./pages/addonNew.vue") },
+  { path: '/servers', component:     () => import("./pages/servers.vue") },
+  { path: '/blog', component:        () => import("./pages/blog.vue") },
+  { path: '/wiki', component:        () => import("./pages/wiki.vue") },
+  { path: '/forum', component:       () => import("./pages/forum.vue") },
 ]
 
 export const router = createRouter({
