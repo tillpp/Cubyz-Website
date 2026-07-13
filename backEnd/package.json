@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "dev": "node src/index.js"
+    "debug": "tsx --watch src/index.ts",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,9 @@
     "cors": "^2.8.6"
   },
   "devDependencies": {
-    "express": "^5.2.1"
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "typescript": "^7.0.2"
   }
 }

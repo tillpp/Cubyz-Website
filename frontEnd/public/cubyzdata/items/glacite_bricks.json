@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:glacite_bricks","name":"cubyz:glacite_bricks","stacksize":120},"blocks":{"drops":["cubyz:glacite_bricks"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:glacite_bricks"},"inputs":[{"amount":1,"id":"cubyz:glacite"}]}]}}}

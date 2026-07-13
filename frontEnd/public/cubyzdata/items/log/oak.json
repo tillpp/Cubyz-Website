@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:log/oak","name":"cubyz:log/oak","stacksize":120},"blocks":{"drops":["cubyz:oak_top","cubyz:oak_log","cubyz:log/oak"]},"recipe":{"input":[{"output":{"amount":4,"id":"cubyz:oak_planks"},"inputs":[{"amount":1,"id":"cubyz:log/oak"}]},{"output":{"amount":2,"id":"cubyz:oak_branch"},"inputs":[{"amount":1,"id":"cubyz:log/oak"}]}]}}}

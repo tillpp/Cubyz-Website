@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:resin_block","name":"cubyz:resin_block","stacksize":120},"blocks":{"drops":["cubyz:resin_block"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:resin_block"},"inputs":[{"amount":4,"id":"cubyz:resin"}]}],"input":[{"output":{"amount":4,"id":"cubyz:resin"},"inputs":[{"amount":1,"id":"cubyz:resin_block"}]}]}}}

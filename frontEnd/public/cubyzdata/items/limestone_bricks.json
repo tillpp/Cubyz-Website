@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:limestone_bricks","name":"cubyz:limestone_bricks","stacksize":120},"blocks":{"drops":["cubyz:limestone_bricks"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:limestone_bricks"},"inputs":[{"amount":1,"id":"cubyz:limestone"}]}]}}}

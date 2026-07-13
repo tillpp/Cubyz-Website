@@ -28,7 +28,13 @@ const routes = [
     component: WikiLayout,
     children: [
       {
-        path: 'block/:pathMatch(.*)*', component: () => import('./wikiPages/block.vue')
+        path: 'blocks/:pathMatch(.*)*', component: () => import('./wikiPages/blocks.vue')
+      },
+      {
+        path: 'tags/:pathMatch(.*)*', component: () => import('./wikiPages/tags.vue')
+      },
+      {
+        path: 'list/:pathMatch(.*)*', component: () => import('./wikiPages/list.vue')
       },
       { 
         path: '', component: () => import("./wikiPages/wiki.vue"),

@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:sandstone_tile","name":"cubyz:sandstone_tile","stacksize":120},"blocks":{"drops":["cubyz:sandstone_tile"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:sandstone_tile"},"inputs":[{"amount":1,"id":"cubyz:sandstone"}]}]}}}

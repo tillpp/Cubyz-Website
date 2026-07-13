@@ -1,0 +1,2 @@
+model:model = cubyz:cube
+state:u16 = 2 between [2,16]

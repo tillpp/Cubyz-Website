@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"fence/birch.png","block":"cubyz:birch_fence","name":"cubyz:birch_fence","stacksize":120},"blocks":{"drops":["cubyz:birch_fence"]},"recipe":{"output":[{"output":{"amount":2,"id":"cubyz:birch_fence"},"inputs":[{"amount":1,"id":"cubyz:birch_planks"}]}]}}}

@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"raw_iron.png","block":"cubyz:iron_ore","name":"cubyz:iron_ore","stacksize":120},"blocks":{"drops":["cubyz:iron_ore"]},"recipe":{"input":[{"output":{"amount":1,"id":"cubyz:iron_ingot"},"inputs":[{"amount":1,"id":"cubyz:coal_ore"},{"amount":1,"id":"cubyz:iron_ore"}]}]}}}

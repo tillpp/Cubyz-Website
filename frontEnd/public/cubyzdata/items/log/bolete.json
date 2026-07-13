@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:log/bolete","name":"cubyz:log/bolete","stacksize":120},"blocks":{"drops":["cubyz:log/bolete","cubyz:bolete_stem"]},"recipe":{"input":[{"output":{"amount":2,"id":"cubyz:bolete_branch"},"inputs":[{"amount":1,"id":"cubyz:log/bolete"}]}]}}}

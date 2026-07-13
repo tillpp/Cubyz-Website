@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:glass/uranium","name":"cubyz:glass/uranium","stacksize":120},"blocks":{"drops":["cubyz:glass/uranium"]},"recipe":{"output":[{"output":{"amount":8,"id":"cubyz:glass/uranium"},"inputs":[{"amount":8,"id":"cubyz:glass/white"},{"amount":1,"id":"cubyz:uranium_ingot"}]}]}}}

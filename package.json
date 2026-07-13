@@ -3,9 +3,9 @@
     "private": true,
     "scripts": {
         "frontEnd": "npm run dev --prefix frontEnd",
-        "backEnd": "npm run dev --prefix backEnd",
-        "dev": "concurrently \"npm run frontEnd\" \"npm run backEnd\" ",
-        "build": "npm run build --prefix frontEnd"
+        "backEnd": "npm run start --prefix backEnd",
+        "build": "npm run build --prefix frontEnd",
+        "start": "npm run build --prefix frontEnd && npm run start --prefix backEnd"
     },
     "devDependencies": {
         "concurrently": "^9.2.1"
