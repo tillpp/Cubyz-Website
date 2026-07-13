@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"sign/mahogany.png","block":"cubyz:sign/mahogany","name":"cubyz:sign/mahogany","stacksize":120},"blocks":{"drops":["cubyz:sign/mahogany"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:sign/mahogany"},"inputs":[{"amount":1,"id":"cubyz:mahogany_planks"}]}]}}}

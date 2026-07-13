@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:lamp","name":"cubyz:lamp","stacksize":120},"blocks":{"drops":["cubyz:lamp"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:lamp"},"inputs":[{"amount":1,"id":"cubyz:torch"},{"amount":2,"id":"cubyz:iron_ingot"}]}]}}}

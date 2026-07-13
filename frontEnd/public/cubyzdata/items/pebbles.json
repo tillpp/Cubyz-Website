@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"pebbles.png","block":"cubyz:pebbles","name":"cubyz:pebbles","stacksize":120},"blocks":{"drops":["cubyz:pebbles"]},"recipe":{"output":[{"output":{"amount":4,"id":"cubyz:pebbles"},"inputs":[{"amount":1,"id":"cubyz:gravel"}]}]}}}

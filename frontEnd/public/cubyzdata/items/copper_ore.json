@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"raw_copper.png","block":"cubyz:copper_ore","name":"cubyz:copper_ore","stacksize":120},"blocks":{"drops":["cubyz:copper_ore"]},"recipe":{"input":[{"output":{"amount":1,"id":"cubyz:copper_ingot"},"inputs":[{"amount":1,"id":"cubyz:coal_ore"},{"amount":1,"id":"cubyz:copper_ore"}]}]}}}

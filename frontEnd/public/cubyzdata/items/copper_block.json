@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:copper_block","name":"cubyz:copper_block","stacksize":120},"blocks":{"drops":["cubyz:copper_block"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:copper_block"},"inputs":[{"amount":4,"id":"cubyz:copper_ingot"}]}],"input":[{"output":{"amount":4,"id":"cubyz:copper_ingot"},"inputs":[{"amount":1,"id":"cubyz:copper_block"}]}]}}}

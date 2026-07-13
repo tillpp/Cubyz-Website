@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"fence/pine.png","block":"cubyz:pine_fence","name":"cubyz:pine_fence","stacksize":120},"blocks":{"drops":["cubyz:pine_fence"]},"recipe":{"output":[{"output":{"amount":2,"id":"cubyz:pine_fence"},"inputs":[{"amount":1,"id":"cubyz:pine_planks"}]}]}}}

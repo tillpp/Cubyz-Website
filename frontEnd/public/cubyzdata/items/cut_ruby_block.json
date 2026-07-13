@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:cut_ruby_block","name":"cubyz:cut_ruby_block","stacksize":120},"blocks":{"drops":["cubyz:cut_ruby_block"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:cut_ruby_block"},"inputs":[{"amount":1,"id":"cubyz:ruby_block"}]}],"input":[{"output":{"amount":4,"id":"cubyz:ruby_ore"},"inputs":[{"amount":1,"id":"cubyz:cut_ruby_block"}]}]}}}

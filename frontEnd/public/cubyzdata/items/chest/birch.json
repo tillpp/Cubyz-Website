@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:chest/birch","name":"cubyz:chest/birch","stacksize":120},"blocks":{"drops":["cubyz:chest/birch"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:chest/birch"},"inputs":[{"amount":4,"id":"cubyz:birch_planks"}]}]}}}

@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"fence/oak.png","block":"cubyz:oak_fence","name":"cubyz:oak_fence","stacksize":120},"blocks":{"drops":["cubyz:oak_fence"]},"recipe":{"output":[{"output":{"amount":2,"id":"cubyz:oak_fence"},"inputs":[{"amount":1,"id":"cubyz:oak_planks"}]}]}}}

@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:obsidian","name":"cubyz:obsidian","material":{"durability":55,"textureRoughness":0.1,"massDamage":1.7000000000000002,"swingSpeed":2.5,"modifiers":[{"id":"fragile","strength":0.33000000000000007}],"colors":[4279175185,4279833116,4281410614,4285089899,4282789703],"hardnessDamage":5.7},"stacksize":120},"blocks":{"drops":["cubyz:obsidian"]}}}

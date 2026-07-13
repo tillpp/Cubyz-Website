@@ -1,11 +1,11 @@
+
 <template>
-  <RouterView />
+    <RouterView />
 </template>
 <style>
 * {
     color-scheme: dark;
     font-family: font;
-    font-size: 1em;
     text-shadow: 2px 2px 0px #000000;
 }
 

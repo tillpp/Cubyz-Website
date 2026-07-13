@@ -1,4 +1,3 @@
-
 ::-webkit-scrollbar {
     height: 15px;
     width: 15px;
@@ -36,6 +35,7 @@ body {
     image-rendering: crisp-edges;
     background-size: 64px;
     margin: 0px;
+    min-height: 100vh;
 }
 
 button {

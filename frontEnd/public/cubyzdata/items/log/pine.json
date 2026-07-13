@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:log/pine","name":"cubyz:log/pine","stacksize":120},"blocks":{"drops":["cubyz:pine_log","cubyz:log/pine","cubyz:pine_top"]},"recipe":{"input":[{"output":{"amount":4,"id":"cubyz:pine_planks"},"inputs":[{"amount":1,"id":"cubyz:log/pine"}]},{"output":{"amount":2,"id":"cubyz:pine_branch"},"inputs":[{"amount":1,"id":"cubyz:log/pine"}]}]}}}

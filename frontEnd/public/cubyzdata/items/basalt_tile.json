@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:basalt_tile","name":"cubyz:basalt_tile","stacksize":120},"blocks":{"drops":["cubyz:basalt_tile"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:basalt_tile"},"inputs":[{"amount":1,"id":"cubyz:basalt"}]}]}}}

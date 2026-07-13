@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:log/toadstool","name":"cubyz:log/toadstool","stacksize":120},"blocks":{"drops":["cubyz:log/toadstool","cubyz:toadstool_stem"]},"recipe":{"input":[{"output":{"amount":2,"id":"cubyz:toadstool_branch"},"inputs":[{"amount":1,"id":"cubyz:log/toadstool"}]}]}}}

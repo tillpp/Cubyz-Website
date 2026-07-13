@@ -11,7 +11,7 @@ const isOpen = defineModel('isOpen')
         <div @click="isOpen = false" class="close"></div>
         <div class="content">
             <h3 style="display: inline-block;font-size: 2em;">SignIn</h3>
-            <form action="" method="post">
+            <form action="/login" method="post">
                 <input type="text"  name="name"        id="name"     placeholder="Username" required autocomplete="username" /> <br>
                 <input type="password" name="password" id="password" placeholder="Password" required autocomplete="current-password"/><br>
                 <input type="submit" value="Sign in!" />

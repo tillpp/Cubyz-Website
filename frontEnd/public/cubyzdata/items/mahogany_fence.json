@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"fence/mahogany.png","block":"cubyz:mahogany_fence","name":"cubyz:mahogany_fence","stacksize":120},"blocks":{"drops":["cubyz:mahogany_fence"]},"recipe":{"output":[{"output":{"amount":2,"id":"cubyz:mahogany_fence"},"inputs":[{"amount":1,"id":"cubyz:mahogany_planks"}]}]}}}

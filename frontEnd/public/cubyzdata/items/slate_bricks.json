@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:slate_bricks","name":"cubyz:slate_bricks","stacksize":120},"blocks":{"drops":["cubyz:slate_bricks"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:slate_bricks"},"inputs":[{"amount":1,"id":"cubyz:slate"}]}]}}}

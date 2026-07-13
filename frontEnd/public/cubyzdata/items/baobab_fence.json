@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"fence/baobab.png","block":"cubyz:baobab_fence","name":"cubyz:baobab_fence","stacksize":120},"blocks":{"drops":["cubyz:baobab_fence"]},"recipe":{"output":[{"output":{"amount":2,"id":"cubyz:baobab_fence"},"inputs":[{"amount":1,"id":"cubyz:baobab_planks"}]}]}}}

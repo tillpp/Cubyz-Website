@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:log/glimmergill","name":"cubyz:log/glimmergill","stacksize":120},"blocks":{"drops":["cubyz:log/glimmergill","cubyz:glimmergill_stem"]},"recipe":{"input":[{"output":{"amount":2,"id":"cubyz:glimmergill_branch"},"inputs":[{"amount":1,"id":"cubyz:log/glimmergill"}]}]}}}

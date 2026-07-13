@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:chest/willow","name":"cubyz:chest/willow","stacksize":120},"blocks":{"drops":["cubyz:chest/willow"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:chest/willow"},"inputs":[{"amount":4,"id":"cubyz:willow_planks"}]}]}}}

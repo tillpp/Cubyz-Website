@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"block":"cubyz:chest/baobab","name":"cubyz:chest/baobab","stacksize":120},"blocks":{"drops":["cubyz:chest/baobab"]},"recipe":{"output":[{"output":{"amount":1,"id":"cubyz:chest/baobab"},"inputs":[{"amount":4,"id":"cubyz:baobab_planks"}]}]}}}

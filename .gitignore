@@ -143,6 +143,4 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
-# ignore cubyz assets
-frontEnd/public/cubyz
 backEnd/cert

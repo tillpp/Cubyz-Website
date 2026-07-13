@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"wall/void_stone.png","block":"cubyz:void_stone_wall","name":"cubyz:void_stone_wall","stacksize":120},"blocks":{"drops":["cubyz:void_stone_wall"]},"recipe":{"output":[{"output":{"amount":2,"id":"cubyz:void_stone_wall"},"inputs":[{"amount":1,"id":"cubyz:void_stone"}]}]}}}

@@ -1,0 +1,1 @@
+{"0.0.0":{"obj":{"food":0,"texture":"wall/glacite.png","block":"cubyz:glacite_wall","name":"cubyz:glacite_wall","stacksize":120},"blocks":{"drops":["cubyz:glacite_wall"]},"recipe":{"output":[{"output":{"amount":2,"id":"cubyz:glacite_wall"},"inputs":[{"amount":1,"id":"cubyz:glacite"}]}]}}}
